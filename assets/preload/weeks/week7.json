@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"ghosted",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"hazel",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"unleash",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "from the grave",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

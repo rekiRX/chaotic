@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ChasmaticRoar.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Roar0000" x="0" y="0" width="1058" height="932" pivotX="322.35" pivotY="399"/>
+	<SubTexture name="Roar0001" x="1058" y="0" width="1058" height="932"/>
+	<SubTexture name="Roar0002" x="2116" y="0" width="1058" height="932"/>
+	<SubTexture name="Roar0003" x="0" y="932" width="1058" height="932"/>
+	<SubTexture name="Roar0004" x="1058" y="932" width="1058" height="932"/>
+	<SubTexture name="Roar0005" x="2116" y="932" width="1058" height="932"/>
+	<SubTexture name="Roar0006" x="0" y="1864" width="1058" height="932"/>
+	<SubTexture name="Roar0007" x="1058" y="1864" width="1058" height="932"/>
+	<SubTexture name="Roar0008" x="2116" y="1864" width="1058" height="932"/>
+	<SubTexture name="Roar0009" x="2116" y="1864" width="1058" height="932"/>
+	<SubTexture name="Roar0010" x="2116" y="1864" width="1058" height="932"/>
+	<SubTexture name="Roar0011" x="2116" y="1864" width="1058" height="932"/>
+</TextureAtlas>

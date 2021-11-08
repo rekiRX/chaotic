@@ -1,0 +1,67 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "chasm",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello there, bf"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "chasm",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes, I followed you here with all my pals..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "chasm",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Don't act like you aren't bf"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Boop."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "chasm",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "That's just what I thought"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Skee do ba poo"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "chasm",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Rap battle?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "chasm",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "This is a warmup, Im a little rusty..."
+		}
+	]
+}

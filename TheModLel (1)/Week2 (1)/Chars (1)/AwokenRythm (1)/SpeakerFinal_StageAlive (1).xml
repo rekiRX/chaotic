@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="SpeakerFinal_StageAlive.png"><SubTexture name="SpeakerFinal_StageAlive IDLE0000" x="0" y="0" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0001" x="1157" y="0" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0002" x="2314" y="0" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0003" x="3471" y="0" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0004" x="0" y="784" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0005" x="1157" y="784" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0006" x="2314" y="784" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0007" x="3471" y="784" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0008" x="0" y="1568" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0009" x="1157" y="1568" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0010" x="2314" y="1568" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0011" x="3471" y="1568" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive UP0000" x="0" y="2352" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive UP0001" x="1157" y="2352" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive IDLE0012" x="2314" y="2352" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive UP0002" x="3471" y="2352" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive UP0003" x="0" y="3136" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive UP0004" x="1157" y="3136" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive DOWN0000" x="2314" y="3136" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive DOWN0001" x="3471" y="3136" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive DOWN0002" x="0" y="3920" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive LEFT0000" x="1157" y="3920" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive LEFT0001" x="2314" y="3920" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive LEFT0002" x="3471" y="3920" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive RIGHT0000" x="0" y="4704" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive RIGHT0001" x="1157" y="4704" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+<SubTexture name="SpeakerFinal_StageAlive RIGHT0002" x="2314" y="4704" width="1157" height="784" frameX="0" frameY="0" frameWidth="1157" frameHeight="784" />
+</TextureAtlas>

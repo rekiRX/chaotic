@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="demonweek.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="WEEK 8 PRESS0000" x="0" y="0" width="370" height="126" pivotX="5.05" pivotY="3.8"/>
+	<SubTexture name="WEEK 8 PRESS0001" x="0" y="126" width="370" height="126"/>
+</TextureAtlas>
