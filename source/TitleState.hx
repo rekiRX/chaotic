@@ -171,13 +171,13 @@ class TitleState extends MusicBeatState
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 		logoBl.animation.play('bump');
-		logoBl.setGraphicSize(Std.int(logoBl.width * 0.8));
-		logoBl.screenCenter();
+		logoBl.setGraphicSize(Std.int(logoBl.width * 0.9));
+		logoBl.screenCenter(X);
 		logoBl.updateHitbox();
 		new FlxTimer().start(2, function(tmr:FlxTimer)
 			{
-				if(logoBl.angle == -8) FlxTween.angle(logoBl, logoBl.angle, 8, 2.3, {ease: FlxEase.elasticIn});
-				else FlxTween.angle(logoBl, logoBl.angle, -8, 2.3, {ease: FlxEase.elasticIn});
+				if(logoBl.angle == -10) FlxTween.angle(logoBl, logoBl.angle, 10, 2, {ease: FlxEase.quartInOut});
+				else FlxTween.angle(logoBl, logoBl.angle, -10, 2, {ease: FlxEase.quartInOut});
 			}, 0);
 		FlxTween.tween(logoBl, {y: logoBl.y + 50}, 1, {ease: FlxEase.sineInOut, type: PINGPONG});
 		FlxTween.tween(logoBl, {y: logoBl.y + 50}, 1, {ease: FlxEase.sineInOut, type: PINGPONG});
@@ -440,11 +440,11 @@ class TitleState extends MusicBeatState
 			switch (curBeat)
 			{
 				case 1:
-					createCoolText(['Psych Engine by'], 45);
+					createCoolText(['Chaotic Beings'], 45);
 				// credTextShit.visible = true;
 				case 3:
-					addMoreText('Shadow Mario', 45);
-					addMoreText('RiverOaken', 45);
+					addMoreText('Made By', 45);
+					addMoreText('Chasm', 45);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 4:
@@ -453,10 +453,10 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 5:
-					createCoolText(['This is a mod to'], -60);
+					createCoolText(['Coded by'], -60);
 				case 7:
-					addMoreText('This game right below lol', -60);
-					logoSpr.visible = true;
+					addMoreText('rekiRX', -60);
+				
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
 					deleteCoolText();

@@ -172,7 +172,7 @@ class PlayState extends MusicBeatState
 	public var camHUD:FlxCamera;
 	public var camGame:FlxCamera;
 	public var camOther:FlxCamera;
-	public var shakecamthing:Bool = true;
+	public var shakecamthing:Bool = false;
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
@@ -1931,6 +1931,17 @@ class PlayState extends MusicBeatState
 		if (dad.curCharacter == 'chasm'){
 			dad.y -= Math.sin(floatshit);
 		}
+		if (curSong == 'chasmatic' && curBeat >= 456 && curBeat < 2640){
+			FlxG.camera.flash(FlxColor.BLACK, 0.50);
+			camHUD.y -= Math.sin(0.03);
+			healthBarBG.visible = false;
+				
+				healthBar.visible = false;
+				iconP1.visible = false;
+				iconP2.visible = false;
+				scoreTxt.visible = false;
+				
+		}
 		
 
 		switch (curStage)
@@ -2939,7 +2950,7 @@ class PlayState extends MusicBeatState
 		}
 	}
 	
-	function HealthDrain():Void
+	function HealthDrain(dahealth:Float):Void
 		{
 			
 			
@@ -2952,7 +2963,7 @@ class PlayState extends MusicBeatState
 					
 			       camHUD.flash(FlxColor.BLACK, 0.75);
 			        FlxG.camera.shake(0.04, 0.3);
-					health -= 0.007;
+					health -= dahealth;
 				}, 300);
 		}
  
@@ -3874,15 +3885,80 @@ class PlayState extends MusicBeatState
 		}
 		if (curSong == 'reaper'  && curBeat == 244){
 			shakecamthing = true;
-			HealthDrain();
+			HealthDrain(0.007);
 		}
+		
 		if (curSong == 'chasmatic')
 			switch(curBeat)
+	
+
 		   {
-				case: 448 
-				case: 450
-				case: 452
-				case: 454
+			   
+			    case 96:
+				   HealthDrain(0.005);
+			    case 160:
+				   HealthDrain(0.005);
+			   case 320:
+				camHUD.flash(FlxColor.BLACK, 30);
+
+
+				
+				case 450:
+					var ready:FlxSprite = new FlxSprite().loadGraphic(Paths.image("ready"));
+					ready.scrollFactor.set();
+					ready.updateHitbox();
+	
+					
+	
+					ready.screenCenter();
+					ready.antialiasing = true;
+					add(ready);
+					FlxTween.tween(ready, {y: ready.y += 100, alpha: 0}, Conductor.crochet / 1000, {
+						ease: FlxEase.cubeInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							ready.destroy();
+						}
+					});
+				
+				case 452:
+						var set:FlxSprite = new FlxSprite().loadGraphic(Paths.image('set'));
+				set.scrollFactor.set();
+
+				
+
+				set.screenCenter();
+				set.antialiasing =  true;
+				add(set);
+				FlxTween.tween(set, {y: set.y += 100, alpha: 0}, Conductor.crochet / 1000, {
+					ease: FlxEase.cubeInOut,
+					onComplete: function(twn:FlxTween)
+					{
+						set.destroy();
+					}
+				});
+				
+					
+				case 454:
+					var go:FlxSprite = new FlxSprite().loadGraphic(Paths.image('go'));
+					go.scrollFactor.set();
+	
+					if (curStage.startsWith('school'))
+						go.setGraphicSize(Std.int(go.width * daPixelZoom));
+	
+					go.updateHitbox();
+	
+					go.screenCenter();
+					go.antialiasing =  true;
+					add(go);
+					FlxTween.tween(go, {y: go.y += 100, alpha: 0}, Conductor.crochet / 1000, {
+						ease: FlxEase.cubeInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							go.destroy();
+						}
+					});
+					 
 			}
 
 		iconP1.setGraphicSize(Std.int(iconP1.width + 30));
